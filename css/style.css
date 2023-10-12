@@ -1,9 +1,22 @@
 body{
 	background: #ffdab3;
+	font-size: 18px;
 }
 form {
-      padding: 25px;
-      margin: 25px;
-      box-shadow: 0 2px 5px #f5f5f5; 
-      background: #f5f5f5; 
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+}
+h1{
+	text-align: center;
+	width: 64%;
+	margin: auto;
+}
+p{
+	text-align: center;
+	width: 64%;
+	margin: auto;
+	font-size: 1.4em;
+	line-height: 1.5 em;
 }
