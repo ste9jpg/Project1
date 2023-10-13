@@ -7,8 +7,6 @@ div{
 	max-width: 500px;
 	background-color: #0066cc;
 	color: white;
-	content: center;
-	
 }
 h1{
 	text-align: center;
@@ -23,7 +21,6 @@ p{
 	width: 64%;
 	margin: auto;
 	margin-bottom: 10px;
-	line-height: 1.5 em;
 }
 form {
 	max-width: 500px;
