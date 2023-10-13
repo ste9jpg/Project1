@@ -2,7 +2,7 @@ body{
 	background: #ffdab3;
 	font-size: 18px;	
 }
-div{
+#info{
 	margin-bottom: 30px;
 	max-width: 500px;
 	color: white;
