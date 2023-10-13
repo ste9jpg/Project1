@@ -48,3 +48,13 @@ form.addEventListener('submit', (e) => {
   }
 
 //One radio button has to be checked
+  const interestedRadio = document.querySelector('input[name=title]:checked');
+  if (!interestedRadio) {
+    messages.push('Please select your interest');
+  }
+
+  if (messages.length > 0) {
+    e.preventDefault();
+    errorElement.innerText = messages.join(', ');
+  }
+});
