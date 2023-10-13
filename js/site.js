@@ -42,5 +42,9 @@ form.addEventListener('submit', (e) => {
   }
 
 //phone validation 
+  const phonePattern = /^\d{3}-\d{3}-\d{4}$/;
+  if (!phonePattern.test(phone.value)) {
+    messages.push('Invalid phone number format (e.g., 123-456-7890)');
+  }
 
 //One radio button has to be checked
