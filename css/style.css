@@ -38,6 +38,7 @@ input,textarea{
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #6699cc;
+	text-align: right;
     outline: none;	
 }
 
