@@ -5,10 +5,12 @@
   <title> Project 1 Form </title>
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" >
   <link rel="stylesheet" media="screen" href="css/style.css">
-
+  <script defer src="script.js"></script>
 </head>
 <body>
 <main id="content">
+
+  <div id="error"> </div>
   <form method="get" action="#null">
     <div>
       <h1>Somos Hawks Organization</h1>
@@ -34,7 +36,7 @@
 	    <label for="phone">Phone #: </label>
 		<input type="phone" id="phone" name="phone" placeholder= "123-456-7890" required>
 	  </li>
-	  <li>
+	  <li id="input-interested">
 	    <label>Interested</label>
 		<input type="radio" name="title">
 	    <label>Not Interested</label>
