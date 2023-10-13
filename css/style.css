@@ -26,12 +26,12 @@ p{
 	line-height: 1.5 em;
 }
 form {
+	place-items: center;
 	max-width: 500px;
     padding: 25px;
     margin: 25px;
     box-shadow: 0 2px 5px #f5f5f5; 
     background: #f5f5f5; 
-	content: center;
 	align-items: center;
 }
 input,textarea{
