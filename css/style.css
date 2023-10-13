@@ -6,11 +6,7 @@ div{
 	margin-bottom: 30px;
 	max-width: 500px;
 	color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+
 }
 h1{
 	text-align: center;
