@@ -39,3 +39,16 @@ input,textarea{
     outline: none;	
 }
 
+/* Tablet Media Quiery */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop Media Quiery */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
