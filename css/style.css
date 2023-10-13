@@ -1,26 +1,27 @@
 body{
-	background: #ffdab3;
+	background: white;
 	font-size: 18px;	
 }
 #info{
 	margin-bottom: 30px;
 	max-width: 500px;
 	color: white;
-	background-color: #0099ff;
+	background-color: #6699cc;
+	border-radius: 10px;
+	padding: 20px;
 
 }
 h1{
 	text-align: center;
-	width: 64%;
-	margin: auto;
+	width: 100%;
 	margin-bottom: 10px;
     font-size: 1.5em;
 	font-weight: 400;
 }
 p{
 	text-align: center;
-	width: 64%;
-	margin: auto;
+	width: 100%;
+
 	margin-bottom: 10px;
 }
 form {
