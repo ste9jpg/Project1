@@ -17,6 +17,7 @@ h1{
 	margin-bottom: 10px;
     font-size: 1.5em;
 	font-weight: 400;
+	font-family: 'Fira Sans', 'Bree Serif', 'Outfit', sans-serif;
 }
 p{
 	text-align: center;
@@ -34,7 +35,7 @@ form {
 input,textarea{
     padding: 8px;
     margin-bottom: 20px;
-    border: 1px solid #0066cc;
+    border: 1px solid #6699cc;
     outline: none;	
 }
 
