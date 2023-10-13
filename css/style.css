@@ -5,6 +5,7 @@ body{
 	font-size: 18px;	
 }
 #info{
+	align-items: center;
 	margin-bottom: 30px;
 	max-width: 500px;
 	color: white;
