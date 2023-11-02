@@ -18,7 +18,7 @@ h1{
 	text-align: center;
 	width: 100%;
 	margin-bottom: 10px;
-    font-size: 1.5em;
+        font-size: 1.5em;
 	font-weight: 400;
 	font-family: 'Bree Serif','Fira Sans', 'Outfit', sans-serif;
 }
@@ -30,19 +30,19 @@ p{
 }
 form {
 	max-width: 800px;
-    padding: 25px;
-    margin: 0 auto;
-    box-shadow: 0 2px 5px #f5f5f5; 
-    background: #f5f5f5; 
+        padding: 25px;
+        margin: 0 auto;
+        box-shadow: 0 2px 5px #f5f5f5; 
+        background: #f5f5f5; 
 	font-family: 'Outfit', sans-serif;
 }
 input{
 	box-sizing: border-box;
 	width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
 }
 input,textarea{
     padding: 8px;
@@ -50,9 +50,25 @@ input,textarea{
     border: 1px solid #6699cc;
     outline: none;	
 }
-.radio-input {
-    display: inline-block;
-    margin-right: 10px; /* Optional: Add some space between the radio buttons */
+
+.custom-button {
+    background-color: #6699cc; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    width: 150px; 
+}
+
+.custom-button:hover {
+    background-color: #0066cc; 
+}
+
+
+.button-container {
+    text-align: center; 
 }
 
 /* Tablet Media Quiery */
