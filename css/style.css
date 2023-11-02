@@ -72,15 +72,26 @@ input,textarea{
 }
 
 /* Tablet Media Quiery */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     body {
-        font-size: 18px;
+        font-size: 110%; 
+    }
+    
+    /* Unique tablet styles */
+    .custom-button {
+        padding: 2% 5%; 
     }
 }
 
 /* Desktop Media Quiery */
 @media (min-width: 1024px) {
     body {
-        font-size: 20px;
+        font-size: 120%; 
+    }
+
+    /* Unique desktop styles */
+    .custom-button {
+        padding: 3% 6%; 
+        border-radius: 10px;
     }
 }
