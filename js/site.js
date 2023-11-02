@@ -2,7 +2,7 @@ const fname = document.getElementById('input-fname')
 const lname = document.getElementById('input-lname')
 const lname = document.getElementById('input-email')
 const lname = document.getElementById('input-phone')
-const lname = document.getElementById('input-interested')
+const lname = document.getElementById('send')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
 
@@ -47,11 +47,10 @@ form.addEventListener('submit', (e) => {
     messages.push('Invalid phone number format (e.g., 123-456-7890)');
   }
 
-//One radio button has to be checked
-  const interestedRadio = document.querySelector('input[name=title]:checked');
-  if (!interestedRadio) {
-    messages.push('Please select your interest');
-  }
+// button validation 
+button.addEventListener("click", function() {
+    alert("Button Clicked!");
+});
 
   if (messages.length > 0) {
     e.preventDefault();
